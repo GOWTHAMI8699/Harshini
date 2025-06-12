@@ -1,0 +1,77 @@
+.line{  
+       background-color:bisque;
+     }
+     #new{
+            font-family: cursive;
+     }
+     h1{
+            background-color: chocolate;
+        }
+        .parent p{
+            color:rgb(171, 232, 30);
+        }
+        p:hover{
+            color: cyan;
+            background-color: hotpink;
+        }
+        .border{
+            border:2px solid rgb(7, 190, 231) ;
+            padding-left: 20px;
+            border-radius: 20px;
+            border-style: dotted;<style>
+            border: 2px solid rgb(7,190,231);
+        } 
+        table {
+        border-spacing: 30px;
+        }
+        .margin{
+           border:3px solid black ;
+           padding: 20px;
+        }
+        .margin2{
+            border: 3px solid black;
+            margin-top: 50px;
+        }
+        .static{
+            position:static;
+        }
+        .position{
+            border: 1px solid violet;
+        }
+        .relative{
+            position:relative;
+            top:30px;
+            left:60px;
+        }
+        .page{
+            height:100vh;
+        }
+        .fixed{
+           
+           background-color: blueviolet;
+            position: fixed;
+            left:80px;
+        }
+        .sticky{
+            position:sticky;
+            top:0px;
+            font-size: xx-large;
+        }
+        .inline{
+            display:inline;
+        }
+        .flex-container{
+            display:flex;
+          /*  flex-direction:row-reverse;*/
+        
+        }
+        .flex-container div{
+            background-color:peachpuff ;
+            border: 2px solid tomato;
+            height: 100px;
+            width:100px;
+        }
+        .item2{
+          flex-grow: 2;
+          flex-shrink: 0;
+        }
